@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*HEADER*/
 img{
     width: 100%;
 }
@@ -45,4 +48,61 @@ header{
 
 .sidebar{
     display: none;
+}
+
+/*MAIN*/
+.col{
+    margin-bottom: 4rem;
+    padding: 4rem;
+}
+
+.col .card-text{
+    padding: 2rem 2rem;
+}
+
+.container{
+    padding: 2.5rem 2.5rem;
+}
+
+.wrappen .col{
+    background-color: #b5ddff;
+    padding: 1rem 1rem;
+}
+.wrapper .col:not(.first){
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 0rem;
+}
+.wrappen .col:not(.first) h3{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.btnapp{
+    border-radius: 1rem;
+    padding: 1.2rem;
+    position: absolute;
+    left: 10rem;
+    background-color: #0084fd;
+    color: white;
+}
+
+.card-img{
+    padding: 0.5rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+.card-img img{
+    width: 90%;
+    margin-bottom: -1.5rem;
+}
+
+.mobile{
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+.color{
+    color: #0084fd;
+    font-size: 1.6rem;
 }
