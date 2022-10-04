@@ -109,3 +109,31 @@ header{
     color: #0084fd;
     font-size: 1.6rem;
 }
+
+#planning {
+    background-color: #9593e6;
+  }
+#planning .col:first-child h3 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+#planning .developer {
+    background-color: white;
+    text-align: center;
+} 
+#planning .developer h3 {
+    font-size: 1.75rem;
+}
+  #planning .developer p {
+    font-size: 1.4rem;
+    padding: 0 1.5rem;
+}
+#planning .developer a {
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #9593e6;
+}
